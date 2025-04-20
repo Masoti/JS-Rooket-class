@@ -50,20 +50,35 @@
 //   i++;
 // }
 
-// var arr = []
-// for (let index = 0; index < array.length; index++) {
-//     const element = array[index];
+
+// for (let i = 0 ; i < 100 ; i++ ) {
+//     console.log(i)
+// }
+
+// for (let i = 100 ; i > 0 ; i-- ) {
+//     console.log(i)
+// }
+
+// let j = 100;
+// while (j > 0) {
+//     console.log(j);
+//     j--;
 // }
 
 
-// for (var i = 0 ; i < 100 ; i++ ) {
-    // console.log(i)
+// while (j > 0) {
+//     let k = 100;
+//     if (k == 0) {
+//         break;
+//     }
 // }
 
-// while (false) {
-//     console.log('hesam')
-// }
+while (false) {
+    console.log('Masoud')
+    break;
+}
 
+// حداقل یکبار اجرا می شود
 do {
-    console.log('hesam')
+    console.log('Masoud')
 } while (false);

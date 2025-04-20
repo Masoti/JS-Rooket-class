@@ -1,9 +1,27 @@
 'use strict'
 
-var car = {
+// let car = {
+//     make : 'Ford',
+//     model : 'Mustang',
+//     "year-pro" : 1969,
+//     details : {
+//         colors : ['red','green' , 'black'],
+//         wheels : 4
+//     }
+// }
+// console.log(car.make);
+// console.log(car.model);
+
+// car.make = 'IranKhodro'; // = car["make"]= 'IranKhodro'
+// console.log(car);
+// console.log(car["year-pro"])
+
+// car.maxSpeed = 220;
+
+let car = {
     make : 'Ford',
     model : 'Mustang',
-    "year" : 1969,
+    year : 1969,
     details : {
         colors : ['red','green' , 'black'],
         wheels : 4
@@ -16,11 +34,17 @@ var car = {
     }
 }
 
-var car_2 = Object.create()
+console.log(car.summary())
 
-console.log(car == car_2)
+let car_2 = new Object()
+car_2.make = 'Benz'
+console.log(car_2.make);
+console.log(car_2);
+
+// console.log(car == car_2)
+
+// var car_3 = Object.create()
 
 
-// console.log(car.summary())
 
 

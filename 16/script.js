@@ -42,4 +42,4 @@ Person.prototype.sum = function() {
     return 'sum + 1'
 }
 
-var person1 = new Person('hesam');
+var person1 = new Person('masoud');

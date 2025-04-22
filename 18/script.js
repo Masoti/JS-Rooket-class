@@ -33,22 +33,22 @@
 // }
 // console.log(displayDetails.apply(car2));
 
-// let car = {
-//     make : 'sipa',
-//     model : '111',
-// }
-// let car2 = {
-//     make : 'sipa',
-//     model : 'tiba2',
-// }
-// function displayDetails (year, name) {
-//     console.log(year, name);
-//     console.log('Maker : ' + this.make + ' , Model : ' + this.model);
-// }
+let car = {
+    make : 'sipa',
+    model : '111',
+}
+let car2 = {
+    make : 'sipa',
+    model : 'tiba2',
+}
+function displayDetails (year, name) {
+    console.log(year, name);
+    console.log('Maker : ' + this.make + ' , Model : ' + this.model);
+}
 // apply
 // displayDetails.apply(car2, [2019, 'Masoud']);
 
-// // call
+// call
 // displayDetails.call(car2, 2012 , 'Masoud')
 
 // // bind
@@ -57,18 +57,19 @@
 // displayDetails.bind(car2, 2012 , 'Masoud')()
 
 
-let car = {
-    make : 'sipa',
-    model : '111',
-    displayDetails : function(year , name) {
-        console.log(year, name);
-        console.log('Maker : ' + this.make + ' , Model : ' + this.model, 'Year : ' + year, 'Name : ' + name);
-    }
-}
-let car2 = {
-    make : 'sipa',
-    model : 'tiba2',
-}
+// let car = {
+//     make : 'sipa',
+//     model : '111',
+//     displayDetails : function(year , name) {
+//         console.log(year, name);
+//         console.log('Maker : ' + this.make + ' , Model : ' + this.model, 'Year : ' + year, 'Name : ' + name);
+//     }
+// }
+// let car2 = {
+//     make : 'sipa',
+//     model : 'tiba2',
+// }
 
-car.displayDetails.apply(car2, [2012 , 'Masoud'])
+// car.displayDetails.apply(car2, [2012 , 'Masoud'])
 
+// 

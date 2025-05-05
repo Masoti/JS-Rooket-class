@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Chrome",
-            "request": "launch",
             "type": "chrome",
-            "file": "${workspaceFolder}/index.html",
-            "webRoot": "${workspaceFolder}"
+            "request": "launch",
+            "name": "Launch Chrome",
+            // "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "file": "${workspaceFolder}/index.html"
         }
     ]
 }
